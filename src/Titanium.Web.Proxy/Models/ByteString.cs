@@ -4,7 +4,7 @@ using Titanium.Web.Proxy.Extensions;
 
 namespace Titanium.Web.Proxy.Models
 {
-    internal struct ByteString : IEquatable<ByteString>
+    public struct ByteString : IEquatable<ByteString>
     {
         public static ByteString Empty = new ByteString(ReadOnlyMemory<byte>.Empty);
 

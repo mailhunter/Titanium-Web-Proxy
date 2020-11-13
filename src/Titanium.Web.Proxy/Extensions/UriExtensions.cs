@@ -3,7 +3,7 @@ using Titanium.Web.Proxy.Models;
 
 namespace Titanium.Web.Proxy.Extensions
 {
-    internal static class UriExtensions
+    public static class UriExtensions
     {
         public static string GetOriginalPathAndQuery(this Uri uri)
         {
